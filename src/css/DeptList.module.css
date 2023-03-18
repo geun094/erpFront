@@ -1,0 +1,118 @@
+.deptList {
+  margin-left: 20px;
+}
+
+.deptList span:first-child {
+  color: blue;
+}
+
+.deptList span:last-child{
+  color: red;
+}
+
+.deptTable tr:hover{
+  background-color:#E8EBE7 ;
+}
+
+.deptTable th:first-child {
+  width: 40px;
+}
+
+.deptTable th:nth-child(2) {
+  width: 50px;
+  /* background-color: red; */
+}
+
+.deptTable td:nth-child(2) {
+  width: 50px;
+  /* background-color: red; */
+}
+
+.deptTable th:nth-child(3) {
+  width: 150px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.pageButton {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  align-items: center;
+}
+
+.deptList img {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.paging {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+
+.goBack {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.active {
+  border: none;
+  height: 25px;
+}
+
+.inactive {
+  border: none;
+  height: 25px;
+  background: transparent;
+}
+
+.deptDetail {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(252, 252, 252);
+  height: 240px;
+  border: 1px solid gainsboro;
+  padding: 20px;
+}
+
+.deptRegist {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(252, 252, 252);
+  height: 240px;
+  border: 1px solid gainsboro;
+  padding: 20px;
+}
+
+.deptDetail td {
+  width: 100px;
+  padding: 5px;
+}
+
+.deptRegist td {
+  width: 100px;
+  padding: 5px;
+}
+
+.deptRegist input:first-child {
+  height: 25px;
+}

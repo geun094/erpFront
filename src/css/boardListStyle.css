@@ -1,0 +1,92 @@
+
+.boardlist {
+	margin-left: 30px;
+	
+}
+
+
+.in{
+	text-align: right;
+}
+.boardlist table {
+	border-spacing: 0;
+	border: 1px solid #444444;
+	width: 1000px;
+	margin-top: 10px;
+}
+
+.boardlist h2 {
+	text-align: left;
+}
+
+
+.boardlist th {
+	line-height: 2.0rem;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.boardlist th:first-child {
+	width: 100px;
+}
+
+.boardlist th:nth-child(2) {
+	width: 300px;
+}
+
+.boardlist th:nth-child(3) {
+	width: 200px;
+}
+
+.boardlist th:nth-child(4) {
+	width: 100px;
+}
+
+.boardlist th:last-child {
+	width: 80px;
+}
+
+.boardlist td {
+	line-height: 1.5rem;
+	text-align: center;
+	border-top: 1px solid #aaa;
+}
+
+
+.boardlist button {
+	margin-top: 10px;
+}
+
+/* link */
+.boardCode:hover {
+	background-color: #E8EBE7;
+}
+
+/* css 수정*/
+
+
+/* 페이지 버튼 css */
+.pageButton {
+
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+
+}
+
+/* 상세페이지으로 이동하는 버튼  */
+
+.linkButton {
+	text-align: center;
+}
+
+.myListBut{
+	text-align: right;
+	
+
+}
+
+.tableHeight{
+	height: 400px;
+}
+

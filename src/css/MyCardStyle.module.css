@@ -1,0 +1,42 @@
+.mycard {
+    height: 150px;
+    width: 200px;
+    display: block;
+}
+
+.top {
+    display: flex;
+}
+
+.img {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.face {
+    width: 90px;
+    height: 100px;
+}
+
+.name {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 80px;
+}
+
+.bottom div {
+    margin-top: 5px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom p {
+    text-align: center;
+}

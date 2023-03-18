@@ -1,0 +1,66 @@
+/* 공동 css*/
+
+.ButtonMargin{
+  margin-top: 10px;
+}
+
+.list {
+  cursor: pointer;
+ }
+ .list:hover{
+  background-color:#E8EBE7 ;
+}
+/*1. positionList CSS*/
+
+ .table{
+  margin-top:55px;
+  height: 300px;
+ }
+
+ .src{
+  float: left;
+ }
+ .but{
+  float: right;
+ }
+.positionList{
+  margin-left: 30px;
+}
+ 
+.src img {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+
+.page{
+  margin-top: 20px;
+}
+
+.src input{
+  width:300px;
+}
+
+
+/* 2. regist페이지 css */
+
+.positionRegist{
+  margin-left: 30px;
+}
+
+
+/* 3. detail페이지 css*/
+.positionDetail{
+	margin-left: 30px;
+}
+
+
+/* 4. search페이지 css */
+.search{
+  margin-left: 20px;
+}
+
+
+
+

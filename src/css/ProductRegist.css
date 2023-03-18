@@ -1,0 +1,45 @@
+.productBox {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 350px;
+}
+
+.productLeftBox{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 300px;
+    align-content: stretch;
+    
+}
+.productRightBox{
+    width: 300px;
+    align-content: stretch;
+}
+
+.imgBox{
+    width: 180px;
+    height: 180px;
+    border: 1px solid green;
+}
+
+.leftbottom {
+    margin-top: 20px;
+}
+
+#productText {
+    margin : 10px;
+}
+
+.rightTop {
+    margin-top: 40px;
+}
+
+.rightBottom {
+    margin-top: 110px;
+}
+
+.b {
+    width: 40px;
+}

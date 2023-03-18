@@ -1,0 +1,534 @@
+.regist {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.approvalDetail {
+  margin-top: 50px;
+}
+
+.long {
+  width: 550px;
+  height: 24px;
+  border: 0px;
+}
+
+.approvalForm {
+  margin-left: 20px;
+  width: 700px;
+  padding: 20px;
+  height: 700px;
+  border: 1px solid gray ;
+}
+
+.approvalForm h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailForm h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.docTable {
+  width: 300px;
+  height: 200px;
+  flex-direction: column;
+}
+
+.docTable table {
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
+
+.stampHead {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #E8E8E8;
+  width: 30px;
+  height: 110px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.flexEnd{
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal { 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* width: 60px; */
+  height: 112px;
+  /* background-color: yellow; */
+}
+
+.horizontal img {
+  width: 40px;
+  height: 40px;
+}
+
+.stampBox div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 24px;
+  border: 1px solid gray;
+}
+
+.stampBox div:first-child {
+  border-left: none;
+}
+
+.stampBox div:nth-child(2) {
+  height: 60px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.stampBox div:last-child {
+  border-left: none;
+  height: 24px;
+}
+
+.signature {
+  font-style: italic;
+  font-weight: bold;
+  font-family: 궁서체;
+}
+
+.contentTable {
+  margin-top: 30px;
+  width: 700px;
+  height: 400px;
+}
+
+.title {
+  width: 560px;
+  height: 20px;
+  border: 1px solid gainsboro;
+}
+
+.contentTable table {
+  width: 700px;
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
+
+.contentTable th {
+  width: 100px;
+  text-align: center;
+  height: 33px;
+  background-color: #E8E8E8;
+}
+
+.contentTable td {
+  padding-left: 10px;
+  height: 33px;
+}
+
+.space {
+  padding: 15px;
+  text-align: center;
+}
+
+.textArea {
+  width: 545px;
+  padding: 10px;
+  margin-left: 5px;
+  border: 1px solid gainsboro;
+  outline: none;
+}
+
+.text {
+  position:relative;
+}
+.count {
+  position:absolute; 
+  right:20px;
+  bottom:10px; 
+  color:#666;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  width: 740px;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.closeButton {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin-left: 10px;
+}
+
+.approvalButton {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  width: 700px;
+  justify-content: flex-end;
+}
+
+.approvalButton button {
+  margin-left: 10px;
+}
+.vacationTable {
+  margin-top: 20px;
+}
+
+.vacationTable th{
+  width: 100px;
+  text-align: center;
+  height: 33px;
+  background-color: #E8E8E8;
+}
+
+.vacationTable td{
+  padding-left: 10px;
+}
+
+.docType {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid gray ;
+  height: 350px;
+}
+
+.docTable th {
+  width: 100px;
+  text-align: center;
+  height: 33px;
+  background-color: #E8E8E8;
+}
+
+.docTable td {
+  width: 150px;
+  padding-left: 10px;
+}
+
+.sort {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.approvalTile:hover{
+  color: blue;
+  font-weight: bold;
+}
+
+.approvalTile {
+  height: 20px;
+}
+
+.rejectionTr {
+  color: gray;
+  background-color:#bdbdbb ;
+}
+
+.approvalTr:hover{
+  background-color:#E8EBE7 ;
+}
+
+.draftImg {
+  width: 50px;
+  height: 50px;
+}
+
+.approvalStorage {
+  margin-left: 20px;
+}
+
+.draftInfo {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.draftTable {
+	border-spacing: 0;
+}
+
+.draftTable th{
+  background-color: #266666;
+  color: white;
+  width: 100px;
+}
+
+.draftTable tr{
+  text-align: center;
+}
+
+.approvalImg {
+  width: 50px;
+  height: 50px;
+}
+
+.approvalInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.approvalInfo div {
+  display: flex;
+  align-items: center;
+}
+
+.approvalInfo p {
+  margin-left: 10px;
+}
+
+.toggle Img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.toggle {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.toggle div {
+  display: flex;
+  align-items: center;
+}
+
+.toggle p:nth-child(2) {
+  color: gray
+}
+
+.toggle p:first-child {
+  font-weight: bold;
+  color: #757775;
+}
+
+.modify {
+  margin-left: 20px;
+}
+
+.newWrite {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #757775;
+}
+
+.registNew:hover {
+  cursor: pointer;
+}
+
+.newWrite Img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.newWrite div:nth-child(2) {
+  display: flex;
+}
+
+.processTable {
+  border-spacing: 0;
+}
+
+.outlet {
+  margin-left: 20px;
+}
+
+.outlet h3 {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+}
+
+.right img {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.right input{
+  height: 25px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.pageButton {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  align-items: center;
+}
+
+.approvalTable {
+	border-spacing: 0;
+}
+
+.approvalTable th{
+  background-color: #266666;
+  color: white;
+  width: 100px;
+}
+
+.approvalTable th:first-child {
+  width: 50px;
+}
+
+.approvalTable th:nth-child(4) {
+  width: 100px;
+  height: 20px;
+  border-right: none;
+}
+
+.approvalTable th:nth-child(9) {
+  width: 80px;
+}
+
+.approvalTable td:nth-child(3) {
+  width: 120px;
+}
+
+.approvalTable td:nth-child(5) {
+  border-left: none;
+}
+
+.approvalTable td:nth-child(4) {
+  border-right: none;
+}
+
+.approvalTable th:nth-child(5) {
+  border-left: none;
+  width: 20px;
+}
+
+.approvalTable tr{
+  text-align: center;
+}
+
+.approvalTable img {
+  height: 20px;
+  height: 20px;
+}
+
+.inProgress {
+  font-weight: bold;
+  color: rgb(16, 107, 144);
+}
+
+.rejected {
+  color: gray;
+}
+
+.before {
+  font-weight: bold;
+  color: rgb(179, 204, 213);
+}
+
+.detailForm {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 700px;
+  padding: 20px;
+  height: 670px;
+  border: 1px solid gray ;
+}
+
+.detailForm button {
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.formButton {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+.lineBox {
+  width: 100px;
+  height: 100px;
+}
+
+.plusImg {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.refreshImg {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.plusButton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.approvalBox div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 24px;
+  border: 1px solid gray;
+}
+
+.paging {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+.search {
+  margin-left: 20px;
+}
+
+.search span:first-child {
+  color: blue;
+}
+
+.search span:last-child{
+  color: red;
+}
+
+.signoff h3 {
+  display: flex;
+  margin-left: 20px;
+}

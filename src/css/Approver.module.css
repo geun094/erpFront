@@ -1,0 +1,17 @@
+.search img {
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagingButton {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}

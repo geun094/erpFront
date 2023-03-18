@@ -1,0 +1,48 @@
+.outContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.upperContainer{
+    display: flex;
+    flex-direction: row;
+    border: 1px #AAAAAA solid;
+}
+
+.labelContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.underContainer{
+    border: 1px #AAAAAA solid;
+
+}
+
+.Search{
+    background-image: url(../images/deptSearchIcon.png);
+    height: 2.5vh;
+    width: 1.3vw;
+    
+    background-repeat: no-repeat;
+    object-fit:contain;
+    border: 1px #AAAAAA solid;
+}
+
+.buttonWithInputContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftInputWithButton{
+    width: 2vw;
+}
+
+.rightInputWithButton{
+    width: 7vw;
+}

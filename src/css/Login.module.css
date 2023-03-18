@@ -1,0 +1,57 @@
+.loginBox{
+    
+    width: 14.5%;
+    height: 40%;
+    background-color: #226666;
+    border: 1px #E8EBE7 solid;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.idInput{
+    width: 80%;
+    height: 8%;
+    margin-top: 6%;
+    font-size: 14px;
+    text-align: left;
+    
+}
+
+.pwInput{
+    width: 80%;
+    height: 8%;
+    margin-top: 2%;
+    font-size: 14px;
+    text-align: left;
+}
+
+.chkBoxDiv{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 12px;
+}
+
+.submitBtn{
+    width: 80%;
+    height: 8%;
+    background: #E8EBE7;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.extraBtn{
+    margin-top: 6%;
+    margin-bottom: 4%;
+    flex-direction: row;
+    color: white;
+}

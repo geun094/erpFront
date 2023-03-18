@@ -1,0 +1,68 @@
+.myPage {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myPage div {
+    width: 300px;
+    padding: 10px;
+    height: 420px;
+}
+
+.changeImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.myPage table {
+    margin-left: 20px;
+    border-collapse: collapse;
+    margin-top: 30px;
+    width: 400px;
+    border: 1px solid gainsboro;
+}
+
+.myPage img {
+    width: 200px;
+    height: 200px;
+}
+
+.myPage td:first-child {
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+}
+
+.myPage td:nth-child(2) {
+    width: 200px;
+    padding: 10px;
+}
+
+.changeImg button{
+    justify-content: center;
+    width: 60px;    
+}
+
+.myPage div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+}
+
+.myPage div:first-child  {
+    text-align: center;
+}
+
+.myPage div:nth-child(2) {
+    width: 200px;
+}
+
+.myPage button {
+    margin-top: 20px;
+}

@@ -1,0 +1,43 @@
+.changeTheme {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  width: 900px;
+  height: 500px;
+  padding: 20px;
+  border: 1px solid gray;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+.changeTheme h2 {
+  width: 850px;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.changeTheme img {
+  width: 100px;
+  height: 100px;
+}
+
+.changeTheme img:hover {
+  cursor: pointer;
+}
+
+.selectColor {
+  width: 850px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonBox {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}

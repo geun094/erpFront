@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: fit-content;
+
+    border: 1px #AAAAAA solid;
+
+    margin-left: 2vw;
+    margin-top: 3vh;
+
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+
+    /* background-color: blue; */
+}
+
+.side{
+    /* display: flex;
+    flex-direction: column; */
+
+    width: 50%;
+    height: 100%;
+}
+
+.empPicture{
+    margin-top: 1vh;
+    width: 11vw;
+    height: 13vh;
+    border: 1px #AAAAAA solid;
+}
+
+.pictureBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.empLabel{
+    display: inline-block;
+    width: 10vw;
+    /* background-color: yellow; */
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 3vh;
+    padding-top: 0.8em;
+    padding-bottom: 0;
+}
+
+.input{
+    width: 16vw;
+    /* background-color: pink; */
+    margin-top: 2vh;
+    margin-right: 3vw;
+}
+
+.button{
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.deptSearch{
+    /* background-image: url(../images/searchIcon.png); */
+    height: 2.5vh;
+    width: 1.3vw;
+    
+    background-repeat: no-repeat;
+    object-fit:contain;
+    border: 1px #AAAAAA solid;
+}
+
+.deptCodeInput{
+    width: 3vw;
+}
+
+.deptNameInput{
+    width: 5.5vw;
+}
+.empSearch{
+    /* background-image: url(../images/searchIcon.png); */
+    height: 2.5vh;
+    width: 1.3vw;
+    
+    background-repeat: no-repeat;
+    object-fit:contain;
+    border: 1px #AAAAAA solid;
+}
+
+.empCodeInput{
+    width: 3vw;
+}
+
+.empNameInput{
+    width: 5.5vw;
+}

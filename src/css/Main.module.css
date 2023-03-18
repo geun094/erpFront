@@ -1,0 +1,11 @@
+
+  table {
+    font-size: 14px;
+    border: none;
+  }
+
+  th {
+    width: 100px;
+  }
+  
+  input {outline: none;}
